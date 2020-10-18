@@ -3,18 +3,18 @@ start:
   - python
   - java
 
-python:
-  name: Python
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus. "
-  references: "https://docs.python.org/3/library/"
-  path:
-    - c
+# python:
+#   name: Python
+#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus. "
+#   references: "https://docs.python.org/3/library/"
+#   path:
+#     - c
 
-java:
-  name: Java
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references: "https://docs.oracle.com/en/java/javase/11/docs/api/index.html"
-  path: c
+# java:
+#   name: Java
+#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+#   references: "https://docs.oracle.com/en/java/javase/11/docs/api/index.html"
+#   path: c
 
 c:
   name: C
@@ -28,75 +28,123 @@ x86:
   name: x86 Assembly
   path:
     - x64
-    - crackme
+    - arm
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
   references:
 
 x64:
   name: x86-64 Assembly
   path:
-    - crackme
+    - gdb
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
   references:
 
-crackme:
-  name: Crackme's
+arm:
+  name: ARM
   path:
-    - malware
-    - pwn
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - gdb
 
-malware:
-  name: Malware Analysis
+gdb:
+  name: GDB
   path:
-    - static_analysis
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - disassembler
 
-static_analysis:
-  name: Static Analysis
+disassembler:
+  name: Disassembler
   path:
-    - dynamic_analysis
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - file_formats
 
-dynamic_analysis:
-  name: Dynamic Analysis
+file_formats:
+  name: File Formats
   path:
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - pe
+    - elf
+    - macho
 
-pwn:
-  name: Binary Exploitation (PWN)
+pe:
+  name: PE format
   path:
-    - local_var_overwrite
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - stack
 
-local_var_overwrite:
-  name: Local Variable Overwrite
+elf:
+  name: ELF
   path:
-    - ret_overwrite
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - stack
 
-ret_overwrite:
-  name: Return Overwrite
+macho:
+  name: MACH-O
+  path:
+    - stack
+
+stack:
+  name: Stack Exploits
+  path:
+    - local
+    - aslr
+    - dep
+
+aslr:
+  name: Address Space Layout Randomization
+  path:
+    - pie
+
+pie:
+  name: Position Independent Code
   path:
     - shellcode
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+
+dep:
+  name: Data Execution Prevention
+  path:
+    - shellcode
+
+local:
+  name: Local Variable Overwrite
+  path:
+    - return
+
+return:
+  name: Return Value Control
+  path:
+    - shellcode
 
 shellcode:
   name: Shellcode Injection
   path:
-    - rop
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+    - heap
+    - nop
 
-rop:
-  name: Return Oriented Programming (ROP)
+nop:
+  name: NOP Sled
+
+heap:
+  name: Heap Exploits
   path:
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-  references:
+
+# crackme:
+#   name: Crackme's
+#   path:
+#     - malware
+#     - pwn
+#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+#   references:
+
+# malware:
+#   name: Malware Analysis
+#   path:
+#     - static_analysis
+#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+#   references:
+
+# static_analysis:
+#   name: Static Analysis
+#   path:
+#     - dynamic_analysis
+#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+#   references:
+
+# dynamic_analysis:
+#   name: Dynamic Analysis
+#   path:
+#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+#   references:
