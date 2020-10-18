@@ -5,6 +5,7 @@ const SettingsSection = (props) => {
   var flowpoints = props.state.flowpoints;
 
   const point = flowpoints[settings.selected];
+
   return (
     <div>
       <h3 style={{ marginTop: 0 }}>{point.msg}</h3>
@@ -14,9 +15,14 @@ const SettingsSection = (props) => {
         <p> {point.description}</p>
 
         <h4>References:</h4>
-        <p>
-          <a href={point.references}>{point.references}</a>
-        </p>
+
+        {point.references.map((tmp) => {
+          return (
+            <div>
+              <a href={tmp}>{tmp}</a>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
