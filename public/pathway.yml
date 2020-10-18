@@ -3,32 +3,22 @@ start:
   - python
   - java
 
-# python:
-#   name: Python
-#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus. "
-#   references: "https://docs.python.org/3/library/"
-#   path:
-#     - c
-
-# java:
-#   name: Java
-#   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
-#   references: "https://docs.oracle.com/en/java/javase/11/docs/api/index.html"
-#   path: c
-
 c:
   name: C
   path:
     - x86
+    - arm
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
   references:
     - https://www.cplusplus.com/reference/
+    - https://google.com
 
 x86:
   name: x86 Assembly
   path:
     - x64
-    - arm
+    # - arm
+    # - test
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
   references:
 
@@ -52,7 +42,32 @@ gdb:
 disassembler:
   name: Disassembler
   path:
+    - ida
+    - ghidra
+    - binja
+    - r2
+  description: right here
+
+ida:
+  name: IDA
+  path:
     - file_formats
+
+ghidra:
+  name: Ghidra
+  path:
+    - file_formats
+
+binja:
+  name: Binary Ninja
+  path:
+    - file_formats
+
+r2:
+  name: Radare2
+  path:
+    - file_formats
+
 
 file_formats:
   name: File Formats
@@ -80,45 +95,56 @@ stack:
   name: Stack Exploits
   path:
     - local
-    - aslr
-    - dep
+    # - aslr
+    # - dep
 
-aslr:
-  name: Address Space Layout Randomization
-  path:
-    - pie
+
 
 pie:
   name: Position Independent Code
   path:
-    - shellcode
+    # - dep
 
 dep:
   name: Data Execution Prevention
   path:
-    - shellcode
+    # - shellcode
 
 local:
   name: Local Variable Overwrite
   path:
-    - return
+    # - return
+    - param
 
 return:
   name: Return Value Control
   path:
     - shellcode
 
+param:
+  name: Parameter Passing
+  path:
+    - return
+
+
 shellcode:
   name: Shellcode Injection
   path:
     - heap
+    - aslr
+    - dep
     - nop
+    - pie
+
+aslr:
+  name: "ASLR                    "
+  path:
 
 nop:
-  name: NOP Sled
+  name: "NOP Sled                "
 
 heap:
-  name: Heap Exploits
+  name: "Heap Exploits           "
   path:
 
 # crackme:
