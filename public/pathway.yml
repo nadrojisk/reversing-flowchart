@@ -1,0 +1,102 @@
+start:
+  - c
+  - python
+  - java
+
+python:
+  name: Python
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus. "
+  references: "https://docs.python.org/3/library/"
+  path:
+    - c
+
+java:
+  name: Java
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references: "https://docs.oracle.com/en/java/javase/11/docs/api/index.html"
+  path: c
+
+c:
+  name: C
+  path:
+    - x86
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+    - https://www.cplusplus.com/reference/
+
+x86:
+  name: x86 Assembly
+  path:
+    - x64
+    - crackme
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+x64:
+  name: x86-64 Assembly
+  path:
+    - crackme
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+crackme:
+  name: Crackme's
+  path:
+    - malware
+    - pwn
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+malware:
+  name: Malware Analysis
+  path:
+    - static_analysis
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+static_analysis:
+  name: Static Analysis
+  path:
+    - dynamic_analysis
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+dynamic_analysis:
+  name: Dynamic Analysis
+  path:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+pwn:
+  name: Binary Exploitation (PWN)
+  path:
+    - local_var_overwrite
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+local_var_overwrite:
+  name: Local Variable Overwrite
+  path:
+    - ret_overwrite
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+ret_overwrite:
+  name: Return Overwrite
+  path:
+    - shellcode
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+shellcode:
+  name: Shellcode Injection
+  path:
+    - rop
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
+
+rop:
+  name: Return Oriented Programming (ROP)
+  path:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum ut erat eget egestas. Nunc diam magna, condimentum non posuere eget, congue sed purus. Pellentesque suscipit ipsum neque, ac facilisis mauris interdum ac. Curabitur eu nulla vel tortor consectetur consequat. Mauris tempus, metus consequat facilisis fermentum, eros turpis sagittis ipsum, sit amet imperdiet metus purus ut est. Aenean in gravida urna. Mauris scelerisque dui id erat ullamcorper, a hendrerit tellus laoreet. In nec sem dui. Nullam eu dignissim nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec risus ut justo sodales auctor in quis orci. Sed varius dignissim lacus eu finibus. Fusce diam purus, iaculis eu nisl sed, fringilla facilisis lectus."
+  references:
