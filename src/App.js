@@ -74,11 +74,11 @@ class App extends Component {
     this.addNode(leafs, [x], y, nodes);
   }
 
-  calx(num_of_children) {
+  calx(num_of_children, x) {
     var base_x = window.innerWidth / 2;
     var children = [];
     if (num_of_children === 1 || num_of_children === 0) {
-      return [window.innerWidth / 2];
+      return [base_x];
     } else if (num_of_children % 2) {
       children.push(base_x);
     }
@@ -111,7 +111,7 @@ class App extends Component {
             }
           }
         }
-        var x_locs = this.calx(outputs.length);
+        var x_locs = this.calx(outputs.length, x[count]);
         this.handleAddPoint(child, x[count], y, outputs);
         this.addNode(outputs, x_locs, y + 180, nodes);
 
