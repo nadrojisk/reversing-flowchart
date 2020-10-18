@@ -18,7 +18,7 @@ export const SidebarHead = (props) => {
         style={{ padding: "15px" }}
       >
         <Link href="." color="inherit" underline="none">
-          Binary Hacking
+          Reversing and PWN Steps
         </Link>
       </Typography>
     </div>
