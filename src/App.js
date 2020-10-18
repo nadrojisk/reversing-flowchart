@@ -71,12 +71,34 @@ class App extends Component {
     var x = window.innerWidth / 2;
     var y = window.innerHeight / 2 - 300;
 
-    this.addNode(leafs, x, y, nodes);
+    this.addNode(leafs, [x], y, nodes);
   }
 
-  addNode(children, x, y, nodes, count = 1) {
+  calx(num_of_children) {
+    var base_x = window.innerWidth / 2;
+    var children = [];
+    if (num_of_children === 1 || num_of_children === 0) {
+      return [window.innerWidth / 2];
+    } else if (num_of_children % 2) {
+      children.push(base_x);
+    }
+    var j = 0;
+    var i = 0;
+    for (; children.length < num_of_children; i++) {
+      children.push(base_x + (j + 1) * 160 * Math.pow(-1, i));
+      if (i % 2 !== 0) {
+        j++;
+      }
+    }
+
+    return children;
+  }
+
+  addNode(children, x, y, nodes) {
     // function which generates node which is converted to a flowpoint
     // at render. called recursively
+
+    var count = 0;
     for (var child_name of children) {
       try {
         var child = nodes[child_name];
@@ -89,11 +111,10 @@ class App extends Component {
             }
           }
         }
-        this.handleAddPoint(child, x, y, outputs);
-        this.addNode(outputs, x, y + 225, nodes, count);
+        var x_locs = this.calx(outputs.length);
+        this.handleAddPoint(child, x[count], y, outputs);
+        this.addNode(outputs, x_locs, y + 180, nodes);
 
-        // flip flops nodes
-        x += 200 * Math.pow(-1, count) * count;
         count++;
       } catch (e) {}
     }
